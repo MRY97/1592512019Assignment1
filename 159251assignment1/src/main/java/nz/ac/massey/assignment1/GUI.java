@@ -2,7 +2,7 @@ package nz.ac.massey.assignment1;
 import java.awt.*;
 import javax.swing.*;
 public class GUI {
-	public static JFrame frmte;
+	public JFrame frmte;
 	//create new frame
 	JMenuBar jmb;	
 	JMenu menu1, menu2, menu3, menu4, menu5;
