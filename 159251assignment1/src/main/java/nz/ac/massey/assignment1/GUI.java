@@ -1,8 +1,11 @@
 package nz.ac.massey.assignment1;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 public class GUI {
-	public static JFrame frmte;
+	public JFrame frmte;
 	//create new frame
 	JMenuBar jmb;	
 	JMenu menu1, menu2, menu3, menu4, menu5;
@@ -78,5 +81,46 @@ public class GUI {
 	}
 	public static void main(String[] args) {
 		GUI texteditor = new GUI();
+		texteditor.txtfile.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				Open openfile = new Open();
+				
+			}
+		});
+		texteditor.item3.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				SCPC select = new SCPC();
+				select.select();
+			}
+		});
+		texteditor.item4.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				SCPC select = new SCPC();
+				select.copy();				
+			}
+		});
+		texteditor.item5.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				SCPC select = new SCPC();
+				select.paste();
+			}
+		});
+		texteditor.item6.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				SCPC select = new SCPC();
+				select.cut();;
+			}
+		});
+		texteditor.item11.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				PDFconversation pdfc = new PDFconversation();				
+			}
+		});
 	}
 }
