@@ -88,5 +88,39 @@ public class GUI {
 				
 			}
 		});
+		texteditor.item3.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				SCPC select = new SCPC();
+				select.select();
+			}
+		});
+		texteditor.item4.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				SCPC select = new SCPC();
+				select.copy();				
+			}
+		});
+		texteditor.item5.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				SCPC select = new SCPC();
+				select.paste();
+			}
+		});
+		texteditor.item6.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				SCPC select = new SCPC();
+				select.cut();;
+			}
+		});
+		texteditor.item11.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				PDFconversation pdfc = new PDFconversation();				
+			}
+		});
 	}
 }
