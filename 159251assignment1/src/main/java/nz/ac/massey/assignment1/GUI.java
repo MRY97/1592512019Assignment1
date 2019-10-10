@@ -1,5 +1,8 @@
 package nz.ac.massey.assignment1;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 public class GUI {
 	public JFrame frmte;
@@ -78,5 +81,12 @@ public class GUI {
 	}
 	public static void main(String[] args) {
 		GUI texteditor = new GUI();
+		texteditor.txtfile.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				Open openfile = new Open();
+				
+			}
+		});
 	}
 }
