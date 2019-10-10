@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Open extends GUI {
+public class Open{
 	private FileDialog openDia;
 	private File file;
 	public Open() {
