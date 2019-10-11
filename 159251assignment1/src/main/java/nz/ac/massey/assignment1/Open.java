@@ -8,33 +8,38 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Open{
-	private FileDialog openDia;
 	private File file;
-	public Open() {
+	public Open(FileDialog openDia) {
         GUI openWindow = new GUI();
-        openDia = new FileDialog(openWindow.frmte,"Open",FileDialog.LOAD);
-        openDia.setVisible(true);//显示打开文件对话框
-        String dirpath = openDia.getDirectory();//获取打开文件路径并保存到字符串中。
-        String fileName = openDia.getFile();//获取打开文件名称并保存到字符串中
+        openDia.setVisible(true);
+        //display the open window
+        String dirpath = openDia.getDirectory();
+        //get the file path of the file want to open 
+        String fileName = openDia.getFile();
+        //get the file name of the file want to open
         
-        if (dirpath == null || fileName == null)//判断路径和文件是否为空
+        if (dirpath == null || fileName == null)//contain the file path and name is not null
             return;
         else
-            openWindow.jta.setText(null);//文件不为空，清空原来文件内容。
-        file = new File(dirpath, fileName);//创建新的路径和名称
+            openWindow.jta.setText(null);
+        	//clean the new editor's text
+        	file = new File(dirpath, fileName);
+        	//build the file path and name to get the file
 
         try {
-            BufferedReader bufr = new BufferedReader(new FileReader(file));//尝试从文件中读东西
-            String line = null;//变量字符串初始化为空
+            BufferedReader bufr = new BufferedReader(new FileReader(file));
+            //read the file 
+            String line = null;
+            //initial string to null
             while ((line = bufr.readLine()) != null) {
-                openWindow.jta.append(line + "\r\n");//显示每一行内容
+                openWindow.jta.append(line + "\r\n");
+                //add the strings to editor textarea
             }
-            bufr.close();//关闭文件
+            bufr.close();
+            //close the file
         } catch (FileNotFoundException e1) {
-            // 抛出文件路径找不到异常
             e1.printStackTrace();
         } catch (IOException e1) {
-            // 抛出IO异常
             e1.printStackTrace();
         }
 
