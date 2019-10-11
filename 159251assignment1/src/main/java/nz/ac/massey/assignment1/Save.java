@@ -7,9 +7,11 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import javax.swing.JTextArea;
+
 public class Save {
 	private File file;
-	public void save(GUI frmte, FileDialog saveDia) {
+	public void save(JTextArea jta, FileDialog saveDia) {
         saveDia.setVisible(true);
         //display the save window
         String dirpath = saveDia.getDirectory();
@@ -25,7 +27,7 @@ public class Save {
         try {
             BufferedWriter writetext = new BufferedWriter(new FileWriter(file));
             
-            String text = frmte.jta.getText();
+            String text = jta.getText();
             //get the text included in the texteditor
             writetext.write(text);
             //output the string to the new file by stream

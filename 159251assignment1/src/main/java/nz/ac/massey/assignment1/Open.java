@@ -8,11 +8,9 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Open{
-	private FileDialog openDia;
 	private File file;
-	public Open() {
+	public Open(FileDialog openDia) {
         GUI openWindow = new GUI();
-        openDia = new FileDialog(openWindow.frmte,"Open",FileDialog.LOAD);
         openDia.setVisible(true);
         //display the open window
         String dirpath = openDia.getDirectory();
