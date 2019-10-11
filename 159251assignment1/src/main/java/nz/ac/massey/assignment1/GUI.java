@@ -91,7 +91,7 @@ public class GUI {
 		txtfile.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
-				Open openfile = new Open(openDia);
+				new Open(openDia);
 				
 			}
 		});
@@ -138,7 +138,7 @@ public class GUI {
 		item11.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
-				PDFconversation pdfc = new PDFconversation();				
+				new PDFconversation();				
 			}
 		});
 		//achieve the PDFconversation function
@@ -151,7 +151,7 @@ public class GUI {
 		//achieve the Exit function
 	}
 	public static void main(String[] args) {
-		GUI texteditor = new GUI();
+		new GUI();
 		//initial frame
 	}
 }
