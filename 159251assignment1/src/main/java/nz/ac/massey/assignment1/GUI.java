@@ -15,7 +15,7 @@ public class GUI {
 	//create the whole menu
 	JTextArea jta;
 	//create a text area for writing text 
-
+	private FileDialog openDia, saveDia;
 	public GUI() {
 		frmte = new JFrame();
 		frmte.setTitle("text editor");
@@ -77,6 +77,8 @@ public class GUI {
 		frmte.setJMenuBar(jmb);	
 		frmte.add(jsp, BorderLayout.CENTER);	
 		//add components to frame
+		openDia = new FileDialog(frmte,"Open",FileDialog.LOAD);
+		saveDia = new FileDialog(frmte, "Save", FileDialog.SAVE);
 		frmte.setVisible(true);
 		//set the window can be see
 		item1.addActionListener(new ActionListener() {
@@ -89,11 +91,18 @@ public class GUI {
 		txtfile.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
-				Open openfile = new Open();
+				Open openfile = new Open(openDia);
 				
 			}
 		});
 		//achieve the Open_txt_file function
+		item2.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				Save save = new Save();
+				save.save(jta,saveDia);
+			}
+		});
 		item3.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
