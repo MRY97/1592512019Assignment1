@@ -81,6 +81,12 @@ public class GUI {
 	}
 	public static void main(String[] args) {
 		GUI texteditor = new GUI();
+		texteditor.item1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				New newWindow = new New();
+				newWindow.newWindow();
+			}			
+		});
 		texteditor.txtfile.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
