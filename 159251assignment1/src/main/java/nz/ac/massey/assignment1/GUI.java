@@ -9,7 +9,7 @@ public class GUI {
 	//create new frame
 	JMenuBar jmb;	
 	JMenu menu1, menu2, menu3, menu4, menu5;
-	JMenuItem item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, item11;
+	JMenuItem item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, item11, item12;
 	JMenu open;	
 	JMenuItem txtfile, odtfile;
 	//create the whole menu
@@ -20,7 +20,7 @@ public class GUI {
 		frmte = new JFrame();
 		frmte.setTitle("text editor");
 		frmte.setBounds(600, 300, 500, 400);
-		frmte.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frmte.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		frmte.setVisible(true);
 		//design the window parameter
 		
@@ -45,6 +45,7 @@ public class GUI {
 		item9 = new JMenuItem("GetT&D");
 		item10 = new JMenuItem("About");
 		item11 = new JMenuItem("PDFconversation");
+		item12 = new JMenuItem("Exit");
 		//set name of menu item
 		open.add(txtfile);
 		open.add(odtfile);		
@@ -52,6 +53,7 @@ public class GUI {
 		menu1.add(open);
 		menu1.add(item2);
 		menu1.add(item8);
+		menu1.add(item12);
 		menu2.add(item7);
 		menu2.add(item9);
 		menu3.add(item11);
@@ -75,58 +77,72 @@ public class GUI {
 		frmte.setJMenuBar(jmb);	
 		frmte.add(jsp, BorderLayout.CENTER);	
 		//add components to frame
-		
 		frmte.setVisible(true);
 		//set the window can be see
-	}
-	public static void main(String[] args) {
-		GUI texteditor = new GUI();
-		texteditor.item1.addActionListener(new ActionListener() {
+		item1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				New newWindow = new New();
 				newWindow.newWindow();
 			}			
 		});
-		texteditor.txtfile.addActionListener(new ActionListener() {
+		//achieve the New function
+		txtfile.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
 				Open openfile = new Open();
 				
 			}
 		});
-		texteditor.item3.addActionListener(new ActionListener() {
+		//achieve the Open_txt_file function
+		item3.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
 				SCPC select = new SCPC();
 				select.select();
 			}
 		});
-		texteditor.item4.addActionListener(new ActionListener() {
+		//achieve the Select function
+		item4.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
 				SCPC select = new SCPC();
 				select.copy();				
 			}
 		});
-		texteditor.item5.addActionListener(new ActionListener() {
+		//achieve the Copy function
+		item5.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
 				SCPC select = new SCPC();
 				select.paste();
 			}
 		});
-		texteditor.item6.addActionListener(new ActionListener() {
+		//achieve the Paste function
+		item6.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
 				SCPC select = new SCPC();
-				select.cut();;
+				select.cut();
 			}
 		});
-		texteditor.item11.addActionListener(new ActionListener() {
+		//achieve the Cut function
+		item11.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
 				PDFconversation pdfc = new PDFconversation();				
 			}
 		});
+		//achieve the PDFconversation function
+		item12.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				System.exit(0);			
+			}
+		});
+		//achieve the Exit function
+	}
+	public static void main(String[] args) {
+		GUI texteditor = new GUI();
+		//initial frame
 	}
 }
