@@ -149,6 +149,13 @@ public class GUI {
 			}
 		});
 		//achieve the Exit function
+		item7.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				new Search(frmte,jta);		
+			}
+		});
+		//achieve the Search function
 	}
 	public static void main(String[] args) {
 		new GUI();
