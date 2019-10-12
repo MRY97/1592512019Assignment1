@@ -1,28 +1,19 @@
 package nz.ac.massey.assignment1;
 
-import javax.swing.JTextArea;
-
 public class SCPC {
-	public void select(JTextArea jta) {
+	public void select() {
 		//TODO function Select
-		jta.selectAll();
-		
-		
 	}
 	
-	public void paste(JTextArea jta) {
+	public void paste() {
 		//TODO paste function
-		jta.paste();
-		
 	}
 	
-	public void copy(JTextArea jta) {
+	public void copy() {
 		//TODO copy function
-		jta.copy();
 	}
 	
-	public void cut(JTextArea jta) {
+	public void cut() {
 		//TODO cut function
-		jta.cut();
 	}
 }
