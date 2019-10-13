@@ -4,7 +4,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileNotFoundException;
-import nz.ac.massey.assignment1.Json;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import com.itextpdf.text.DocumentException;
@@ -24,11 +23,12 @@ public class GUI {
 	private FileDialog openDia, saveDia;
 	public GUI() {
 		frmte = new JFrame();
-		
+		Jsontwo.Json(frmte);
 		frmte.setTitle("text editor");
 		frmte.setBounds(600, 300, 500, 400);
 		frmte.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		frmte.setVisible(true);
+		
 		//design the window parameter
 		
 		menu1 = new JMenu("File");
