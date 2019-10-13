@@ -15,6 +15,8 @@ public class GUI {
 	//create the whole menu
 	JTextArea jta;
 	//create a text area for writing text 
+	int width = Toolkit.getDefaultToolkit().getScreenSize().width;
+	int height = Toolkit.getDefaultToolkit().getScreenSize().height;
 	private FileDialog openDia, saveDia;
 	public GUI() {
 		frmte = new JFrame();
@@ -79,20 +81,20 @@ public class GUI {
 		//add components to frame
 		openDia = new FileDialog(frmte,"Open",FileDialog.LOAD);
 		saveDia = new FileDialog(frmte, "Save", FileDialog.SAVE);
+		frmte.setLocation(width/2-300,height/2-200);
 		frmte.setVisible(true);
 		//set the window can be see
 		item1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				New newWindow = new New();
-				newWindow.newWindow();
+				new New();
 			}			
 		});
 		//achieve the New function
 		txtfile.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
-				new Open(openDia);
-				
+				Open open = new Open();
+				open.opentxt(openDia);
 			}
 		});
 		//achieve the Open_txt_file function
@@ -107,7 +109,7 @@ public class GUI {
 
 			public void actionPerformed(ActionEvent e) {
 				SCPC select = new SCPC();
-				select.select();
+				select.select(jta);
 			}
 		});
 		//achieve the Select function
@@ -115,7 +117,7 @@ public class GUI {
 
 			public void actionPerformed(ActionEvent e) {
 				SCPC select = new SCPC();
-				select.copy();				
+				select.copy(jta);				
 			}
 		});
 		//achieve the Copy function
@@ -123,7 +125,7 @@ public class GUI {
 
 			public void actionPerformed(ActionEvent e) {
 				SCPC select = new SCPC();
-				select.paste();
+				select.paste(jta);
 			}
 		});
 		//achieve the Paste function
@@ -131,7 +133,7 @@ public class GUI {
 
 			public void actionPerformed(ActionEvent e) {
 				SCPC select = new SCPC();
-				select.cut();
+				select.cut(jta);
 			}
 		});
 		//achieve the Cut function
@@ -156,6 +158,26 @@ public class GUI {
 			}
 		});
 		//achieve the Search function
+		item8.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				new Print(jta,frmte);
+			}
+			
+		});
+		item9.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				TimeAndDate timeanddate = new TimeAndDate();
+				timeanddate.setLocation(width/2, height/2-200);
+			}
+		});
+		item10.addActionListener(new ActionListener() {
+
+			public void actionPerformed(ActionEvent e) {
+				new About();
+			}
+		});
 	}
 	public static void main(String[] args) {
 		new GUI();
