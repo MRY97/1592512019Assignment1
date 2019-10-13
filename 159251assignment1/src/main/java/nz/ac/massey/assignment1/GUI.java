@@ -2,8 +2,14 @@ package nz.ac.massey.assignment1;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+import java.io.File;
+import java.io.FileNotFoundException;
+import nz.ac.massey.assignment1.Json;
 import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import com.itextpdf.text.DocumentException;
+import org.fife.ui.rsyntaxtextarea.SyntaxConstants;
+import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
 public class GUI {
 	public JFrame frmte;
 	//create new frame
@@ -20,6 +26,7 @@ public class GUI {
 	private FileDialog openDia, saveDia;
 	public GUI() {
 		frmte = new JFrame();
+		
 		frmte.setTitle("text editor");
 		frmte.setBounds(600, 300, 500, 400);
 		frmte.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -31,6 +38,7 @@ public class GUI {
 		menu3 = new JMenu("View");
 		menu4 = new JMenu("Manage");
 		menu5 = new JMenu("Help");		
+		Json.Json(menu1,menu2,menu3,menu4,menu5);
 		//set the name of menu
 		open = new JMenu("Open");		
 		//set the name of the second menu
@@ -64,6 +72,7 @@ public class GUI {
 		menu4.add(item5);
 		menu4.add(item6);
 		menu5.add(item10);
+
 		//add second menu and items to menus respectively
 		jmb = new JMenuBar();
 		jmb.add(menu1);
@@ -73,9 +82,13 @@ public class GUI {
 		jmb.add(menu5);
 		//add menu to bar
 		jta = new JTextArea();
+		jta = new RSyntaxTextArea(20, 30);
+		((RSyntaxTextArea) jta).setSyntaxEditingStyle(SyntaxConstants.SYNTAX_STYLE_JAVA);
+		((RSyntaxTextArea) jta).setCodeFoldingEnabled(true);
+		
 		JScrollPane jsp = new JScrollPane(jta);
 		jsp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
-		
+
 		frmte.setJMenuBar(jmb);	
 		frmte.add(jsp, BorderLayout.CENTER);	
 		//add components to frame
@@ -137,12 +150,30 @@ public class GUI {
 			}
 		});
 		//achieve the Cut function
+		final JFileChooser pdfSaver = new JFileChooser();
+        pdfSaver.setFileFilter(new FileNameExtensionFilter("pdf",".pdf"));
+
 		item11.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
-				new PDFconversation();				
+				pdfSaver.showDialog(frmte, "save as pdf");
+				File file = pdfSaver.getSelectedFile();
+				PDFconversation pdf = new PDFconversation();
+				try {
+					pdf.pdfconversation(file, jta.getText());
+				} catch (FileNotFoundException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				} catch (DocumentException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				
 			}
-		});
+
+			}
+				
+		);
 		//achieve the PDFconversation function
 		item12.addActionListener(new ActionListener() {
 
