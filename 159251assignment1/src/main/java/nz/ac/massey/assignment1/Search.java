@@ -29,7 +29,7 @@ public class Search{
 	    panel1.setLayout(new FlowLayout());
 	    panel2=new JPanel();
 	    panel2.setLayout(new FlowLayout());
-	     
+	    //build panel
 	    label1=new JLabel("Searching Text");
 	    findEdit=new JTextField(12);
 	    searchbtn=new JButton("Search(top->bottom)");
@@ -43,6 +43,7 @@ public class Search{
 	            IndexNum(index);
 	    	}
 	    });
+	    //design action
 	    panel1.add(label1);
 	    panel1.add(findEdit);
 	    panel1.add(searchbtn);
@@ -53,6 +54,7 @@ public class Search{
 	    		dialog.dispose();
 	    	}
 	    });
+	    //design cancel
 	    panel2.add(CancleBtn);
 	      
 	    con=dialog.getContentPane();
@@ -62,10 +64,9 @@ public class Search{
 	    dialog.setTitle("Search");
 	    dialog.setSize(400,150);
 	    dialog.setVisible(true);
+	    //set dialog
 	}
-	public void find(ActionEvent e){
-          
-      }
+	
 	
 	public void IndexNum(int index){
 	    if (index<0){
@@ -77,4 +78,5 @@ public class Search{
             start=index+findEdit.getText().length();            
 	    }
 	}
+	//select string
 }

@@ -1,15 +1,22 @@
 package nz.ac.massey.assignment1;
 
 import java.awt.FileDialog;
+import org.odftoolkit.*;
+import org.odftoolkit.odfdom.doc.*;
+import org.apache.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import com.artofsolving.jodconverter.openoffice.*;
+import com.sun.jndi.ldap.Connection;
+import com.sun.star.lib.connections.socket.SocketConnection;
+import com.artofsolving.jodconverter.openoffice.*;
 
 public class Open{
 	private File file;
-	public Open(FileDialog openDia) {
+	public void opentxt(FileDialog openDia) {
         GUI openWindow = new GUI();
         openDia.setVisible(true);
         //display the open window
@@ -44,4 +51,6 @@ public class Open{
         }
 
     }
+	public void openodt() {
+	}
 }
