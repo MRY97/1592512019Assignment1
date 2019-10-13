@@ -1,7 +1,7 @@
 package nz.ac.massey.assignment1;
 
-public class New extends GUI{
-	public void newWindow() {
+public class New{
+	public New() {
 		new GUI();
 	}
 }
