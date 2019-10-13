@@ -1,7 +1,7 @@
 package nz.ac.massey.assignment1;
 import java.awt.Color;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.io.FileReader;`
 
 import javax.swing.*;
 import com.google.gson.JsonIOException;

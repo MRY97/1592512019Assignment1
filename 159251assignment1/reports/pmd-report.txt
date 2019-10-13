@@ -1,0 +1,390 @@
+src/main/java/nz/ac/massey/assignment1/About.java:6:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/About.java:7:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/About.java:8:	Local variable 'dialog' could be declared final
+src/main/java/nz/ac/massey/assignment1/Exit.java:3:	Avoid short class names like Exit
+src/main/java/nz/ac/massey/assignment1/Exit.java:3:	Each class should declare at least one constructor
+src/main/java/nz/ac/massey/assignment1/Exit.java:3:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:12:	Avoid short class names like GUI
+src/main/java/nz/ac/massey/assignment1/GUI.java:12:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:12:	The class 'GUI' has a Modified Cyclomatic Complexity of 9 (Highest = 16).
+src/main/java/nz/ac/massey/assignment1/GUI.java:12:	The class 'GUI' has a Standard Cyclomatic Complexity of 9 (Highest = 16).
+src/main/java/nz/ac/massey/assignment1/GUI.java:13:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:15:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:15:	To avoid mistakes add a comment at the beginning of the jmb field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/GUI.java:15:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/GUI.java:16:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:16:	To avoid mistakes add a comment at the beginning of the menu1 field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/GUI.java:16:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	To avoid mistakes add a comment at the beginning of the item1 field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/GUI.java:17:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/GUI.java:18:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:18:	To avoid mistakes add a comment at the beginning of the open field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/GUI.java:18:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/GUI.java:19:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:19:	To avoid mistakes add a comment at the beginning of the txtfile field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/GUI.java:19:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/GUI.java:21:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:21:	To avoid mistakes add a comment at the beginning of the jta field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/GUI.java:21:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/GUI.java:23:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:23:	To avoid mistakes add a comment at the beginning of the width field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/GUI.java:23:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/GUI.java:24:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:24:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:24:	To avoid mistakes add a comment at the beginning of the height field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/GUI.java:24:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/GUI.java:25:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/GUI.java:25:	Private field 'openDia' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/nz/ac/massey/assignment1/GUI.java:25:	Private field 'saveDia' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/nz/ac/massey/assignment1/GUI.java:26:	Avoid really long methods.
+src/main/java/nz/ac/massey/assignment1/GUI.java:26:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:26:	The constructor 'GUI' has a Modified Cyclomatic Complexity of 16.
+src/main/java/nz/ac/massey/assignment1/GUI.java:26:	The constructor 'GUI' has a Standard Cyclomatic Complexity of 16.
+src/main/java/nz/ac/massey/assignment1/GUI.java:26:	The constructor 'GUI()' has a NCSS line count of 116.
+src/main/java/nz/ac/massey/assignment1/GUI.java:89:	Local variable 'jsp' could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:101:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:101:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:101:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:101:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:108:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:108:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:108:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:108:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:109:	Local variable 'open' could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:110:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/nz/ac/massey/assignment1/GUI.java:116:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:116:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:116:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:116:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:117:	Local variable 'save' could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:118:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/nz/ac/massey/assignment1/GUI.java:123:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:123:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:123:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:123:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:124:	Local variable 'select' could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:131:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:131:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:131:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:131:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:132:	Local variable 'select' could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:139:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:139:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:139:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:139:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:140:	Local variable 'select' could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:147:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:147:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:147:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:147:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:148:	Local variable 'select' could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:158:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:158:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:158:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:158:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:160:	Local variable 'file' could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:161:	Local variable 'pdf' could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:166:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/assignment1/GUI.java:169:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/assignment1/GUI.java:180:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:180:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:180:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:180:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:181:	System.exit() should not be used in J2EE/JEE apps
+src/main/java/nz/ac/massey/assignment1/GUI.java:187:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:187:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:187:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:187:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:194:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:194:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:194:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:194:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:201:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:201:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:201:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:201:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:202:	Local variable 'timeanddate' could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:208:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/GUI.java:208:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:208:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/GUI.java:208:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/GUI.java:213:	Parameter 'args' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/GUI.java:213:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:12:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:12:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:13:	Method names should not start with capital letters
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:13:	Parameter 'content' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:13:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:13:	The method 'Json(JFrame)' has a NCSS line count of 13.
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:14:	Local variable 'parser' could be declared final
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:17:	Local variable 'json' could be declared final
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:19:	Avoid variables with short names like r
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:19:	Local variable 'r' could be declared final
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:19:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:20:	Avoid variables with short names like g
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:20:	Local variable 'g' could be declared final
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:21:	Avoid variables with short names like b
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:21:	Local variable 'b' could be declared final
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:21:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:24:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:26:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/assignment1/Jsontwo.java:28:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/assignment1/New.java:3:	Avoid short class names like New
+src/main/java/nz/ac/massey/assignment1/New.java:3:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/New.java:4:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/Open.java:12:	Avoid short class names like Open
+src/main/java/nz/ac/massey/assignment1/Open.java:12:	Each class should declare at least one constructor
+src/main/java/nz/ac/massey/assignment1/Open.java:12:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/Open.java:13:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Open.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Open.java:13:	Perhaps 'file' could be replaced by a local variable.
+src/main/java/nz/ac/massey/assignment1/Open.java:14:	Parameter 'openDia' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Open.java:14:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/Open.java:14:	The method 'opentxt(FileDialog)' has a NCSS line count of 19.
+src/main/java/nz/ac/massey/assignment1/Open.java:15:	Found 'DU'-anomaly for variable 'openWindow' (lines '15'-'48').
+src/main/java/nz/ac/massey/assignment1/Open.java:15:	Local variable 'openWindow' could be declared final
+src/main/java/nz/ac/massey/assignment1/Open.java:18:	Local variable 'dirpath' could be declared final
+src/main/java/nz/ac/massey/assignment1/Open.java:20:	Local variable 'fileName' could be declared final
+src/main/java/nz/ac/massey/assignment1/Open.java:24:	Avoid using if...else statements without curly braces
+src/main/java/nz/ac/massey/assignment1/Open.java:24:	This statement should have braces
+src/main/java/nz/ac/massey/assignment1/Open.java:26:	Avoid using if...else statements without curly braces
+src/main/java/nz/ac/massey/assignment1/Open.java:26:	Potential violation of Law of Demeter (static property access)
+src/main/java/nz/ac/massey/assignment1/Open.java:26:	This statement should have braces
+src/main/java/nz/ac/massey/assignment1/Open.java:32:	Local variable 'bufr' could be declared final
+src/main/java/nz/ac/massey/assignment1/Open.java:34:	Found 'DD'-anomaly for variable 'line' (lines '34'-'36').
+src/main/java/nz/ac/massey/assignment1/Open.java:36:	Avoid assignments in operands
+src/main/java/nz/ac/massey/assignment1/Open.java:36:	Found 'DU'-anomaly for variable 'line' (lines '36'-'48').
+src/main/java/nz/ac/massey/assignment1/Open.java:37:	Potential violation of Law of Demeter (static property access)
+src/main/java/nz/ac/massey/assignment1/Open.java:43:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/assignment1/Open.java:45:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/assignment1/Open.java:49:	Document empty method body
+src/main/java/nz/ac/massey/assignment1/Open.java:49:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/PDFconversation.java:13:	Each class should declare at least one constructor
+src/main/java/nz/ac/massey/assignment1/PDFconversation.java:13:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/PDFconversation.java:14:	Parameter 'file' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/PDFconversation.java:14:	Parameter 'text' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/PDFconversation.java:14:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/PDFconversation.java:16:	Local variable 'doc' could be declared final
+src/main/java/nz/ac/massey/assignment1/Print.java:18:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/Print.java:19:	Parameter 'frame' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Print.java:19:	Parameter 'text' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Print.java:19:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/Print.java:19:	The constructor 'Print(JTextArea, JFrame)' has a NCSS line count of 14.
+src/main/java/nz/ac/massey/assignment1/Print.java:22:	Local variable 'pras' could be declared final
+src/main/java/nz/ac/massey/assignment1/Print.java:23:	Local variable 'flavor' could be declared final
+src/main/java/nz/ac/massey/assignment1/Print.java:25:	Local variable 'printService' could be declared final
+src/main/java/nz/ac/massey/assignment1/Print.java:26:	Local variable 'defaultService' could be declared final
+src/main/java/nz/ac/massey/assignment1/Print.java:32:	Local variable 'job' could be declared final
+src/main/java/nz/ac/massey/assignment1/Print.java:33:	Local variable 'das' could be declared final
+src/main/java/nz/ac/massey/assignment1/Print.java:35:	Local variable 'doc' could be declared final
+src/main/java/nz/ac/massey/assignment1/Print.java:41:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/nz/ac/massey/assignment1/SCPC.java:5:	Avoid short class names like SCPC
+src/main/java/nz/ac/massey/assignment1/SCPC.java:5:	Each class should declare at least one constructor
+src/main/java/nz/ac/massey/assignment1/SCPC.java:5:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/SCPC.java:6:	Parameter 'jta' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/SCPC.java:6:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/SCPC.java:13:	Parameter 'jta' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/SCPC.java:13:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/SCPC.java:19:	Parameter 'jta' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/SCPC.java:19:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/SCPC.java:24:	Parameter 'jta' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/SCPC.java:24:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/Save.java:4:	Avoid unused imports such as 'java.awt.Frame'
+src/main/java/nz/ac/massey/assignment1/Save.java:12:	Avoid short class names like Save
+src/main/java/nz/ac/massey/assignment1/Save.java:12:	Each class should declare at least one constructor
+src/main/java/nz/ac/massey/assignment1/Save.java:12:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/Save.java:13:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Save.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Save.java:14:	Parameter 'jta' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Save.java:14:	Parameter 'saveDia' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Save.java:14:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/Save.java:14:	The method 'save(JTextArea, FileDialog)' has a NCSS line count of 14.
+src/main/java/nz/ac/massey/assignment1/Save.java:17:	Local variable 'dirpath' could be declared final
+src/main/java/nz/ac/massey/assignment1/Save.java:19:	Local variable 'fileName' could be declared final
+src/main/java/nz/ac/massey/assignment1/Save.java:22:	Avoid using if...else statements without curly braces
+src/main/java/nz/ac/massey/assignment1/Save.java:22:	This statement should have braces
+src/main/java/nz/ac/massey/assignment1/Save.java:24:	Avoid using if...else statements without curly braces
+src/main/java/nz/ac/massey/assignment1/Save.java:24:	This statement should have braces
+src/main/java/nz/ac/massey/assignment1/Save.java:28:	Local variable 'writetext' could be declared final
+src/main/java/nz/ac/massey/assignment1/Save.java:30:	Local variable 'text' could be declared final
+src/main/java/nz/ac/massey/assignment1/Save.java:38:	Avoid printStackTrace(); use a logger call instead.
+src/main/java/nz/ac/massey/assignment1/Search.java:8:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:9:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Search.java:9:	To avoid mistakes add a comment at the beginning of the con field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/Search.java:9:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/Search.java:10:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Search.java:10:	To avoid mistakes add a comment at the beginning of the dialog field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/Search.java:10:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/Search.java:11:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Search.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Search.java:11:	To avoid mistakes add a comment at the beginning of the panel1 field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/Search.java:11:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/Search.java:12:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Search.java:12:	To avoid mistakes add a comment at the beginning of the text field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/Search.java:12:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/Search.java:13:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Search.java:13:	To avoid mistakes add a comment at the beginning of the label1 field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/Search.java:13:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/Search.java:14:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Search.java:14:	To avoid mistakes add a comment at the beginning of the findEdit field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/Search.java:14:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/Search.java:15:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:15:	To avoid mistakes add a comment at the beginning of the checkBox field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/Search.java:15:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/Search.java:16:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:16:	To avoid mistakes add a comment at the beginning of the dirBtnGroup field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/Search.java:16:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/Search.java:17:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Search.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Search.java:17:	To avoid mistakes add a comment at the beginning of the searchbtn field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/Search.java:17:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/Search.java:17:	Variables should start with a lowercase character, 'CancleBtn' starts with uppercase character.
+src/main/java/nz/ac/massey/assignment1/Search.java:18:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/Search.java:18:	To avoid mistakes add a comment at the beginning of the start field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/Search.java:18:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/Search.java:19:	Parameter 'Jtext' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Search.java:19:	Parameter 'owner' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Search.java:19:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:19:	The constructor 'Search(JFrame, JTextArea)' has a NCSS line count of 37.
+src/main/java/nz/ac/massey/assignment1/Search.java:19:	Variables should start with a lowercase character, 'Jtext' starts with uppercase character.
+src/main/java/nz/ac/massey/assignment1/Search.java:37:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/Search.java:37:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Search.java:37:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:37:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/Search.java:39:	Avoid using if statements without curly braces
+src/main/java/nz/ac/massey/assignment1/Search.java:40:	This statement should have braces
+src/main/java/nz/ac/massey/assignment1/Search.java:42:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/assignment1/Search.java:53:	Avoid variables with short names like e
+src/main/java/nz/ac/massey/assignment1/Search.java:53:	Parameter 'e' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Search.java:53:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:53:	The method 'actionPerformed(ActionEvent)' is missing an @Override annotation.
+src/main/java/nz/ac/massey/assignment1/Search.java:71:	Method names should not start with capital letters
+src/main/java/nz/ac/massey/assignment1/Search.java:71:	Parameter 'index' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Search.java:71:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/Search.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/assignment1/Search.java:77:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/assignment1/Search.java:78:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/nz/ac/massey/assignment1/Start.java:3:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/nz/ac/massey/assignment1/Start.java:3:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/Start.java:4:	Parameter 'args' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/Start.java:4:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:12:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:13:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:13:	Private field 'sdf' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:13:	When instantiating a SimpleDateFormat object, specify a Locale
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:15:	Avoid using redundant field initializer for 'lp'
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:15:	Avoid variables with short names like lp
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:15:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:15:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:15:	Private field 'lp' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:17:	It is a good practice to call super() in a constructor
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:17:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:31:	Local variable 'timer' could be declared final
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:36:	Each class should declare at least one constructor
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:36:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:36:	To avoid mistakes add a comment at the beginning of the ShowTime nested class if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:37:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:38:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:38:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:44:	Each class should declare at least one constructor
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:44:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:44:	To avoid mistakes add a comment at the beginning of the TimePanel nested class if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:45:	Avoid variables with short names like g
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:45:	Parameter 'g' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:45:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:47:	Avoid autogenerated methods to access private fields and methods of inner / outer classes
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:52:	Header comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:52:	To avoid mistakes add a comment at the beginning of the LabelPanel nested class if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:53:	Field comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:53:	To avoid mistakes add a comment at the beginning of the label field if you want a default access modifier
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:53:	Use explicit scoping instead of the default package private level
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:55:	It is a good practice to call super() in a constructor
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:55:	Public method and constructor comments are required
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:60:	Parameter 'args' is not assigned and could be declared final
+src/main/java/nz/ac/massey/assignment1/TimeAndDate.java:60:	Public method and constructor comments are required
+src/test/java/nz/ac/massey/assignment1/OpenTest.java:7:	Each class should declare at least one constructor
+src/test/java/nz/ac/massey/assignment1/OpenTest.java:7:	Header comments are required
+src/test/java/nz/ac/massey/assignment1/OpenTest.java:9:	JUnit 4 tests that execute tests should use the @Test annotation
+src/test/java/nz/ac/massey/assignment1/OpenTest.java:9:	JUnit tests should include assert() or fail()
+src/test/java/nz/ac/massey/assignment1/OpenTest.java:9:	Public method and constructor comments are required
+src/test/java/nz/ac/massey/assignment1/OpenTest.java:10:	Local variable 'gui' could be declared final
+src/test/java/nz/ac/massey/assignment1/OpenTest.java:11:	Local variable 'openDia' could be declared final
+src/test/java/nz/ac/massey/assignment1/OpenTest.java:12:	Local variable 'open' could be declared final
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:4:	Avoid unused imports such as 'java.io.FileNotFoundException'
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:7:	Avoid unused imports such as 'java.util.List'
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:11:	Each class should declare at least one constructor
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:11:	Header comments are required
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:13:	JUnit 4 tests that execute tests should use the @Test annotation
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:14:	Public method and constructor comments are required
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:14:	The method 'testSave()' has a NCSS line count of 21.
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:15:	Local variable 'gui' could be declared final
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:16:	Potential violation of Law of Demeter (static property access)
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:17:	Local variable 'saveDia' could be declared final
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:18:	Local variable 'save' could be declared final
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:20:	Avoid variables with short names like fr
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:20:	Found 'DD'-anomaly for variable 'fr' (lines '20'-'26').
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:21:	Found 'DU'-anomaly for variable 'chars' (lines '21'-'53').
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:21:	Local variable 'chars' could be declared final
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:22:	Found 'DD'-anomaly for variable 'test' (lines '22'-'29').
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:23:	Avoid variables with short names like ch
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:23:	Found 'DD'-anomaly for variable 'ch' (lines '23'-'27').
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:27:	Avoid assignments in operands
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:27:	Found 'DU'-anomaly for variable 'ch' (lines '27'-'53').
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:29:	Prefer StringBuffer over += for concatenating strings
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:35:	System.out.println is used
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:48:	System.out.println is used
+src/test/java/nz/ac/massey/assignment1/SaveTest.java:52:	JUnit assertions should include a message
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:5:	Each class should declare at least one constructor
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:5:	Header comments are required
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:7:	JUnit 4 tests that execute tests should use the @Test annotation
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:7:	JUnit tests should include assert() or fail()
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:7:	Public method and constructor comments are required
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:8:	Local variable 'gui' could be declared final
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:9:	Potential violation of Law of Demeter (static property access)
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:10:	Local variable 'search' could be declared final
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:11:	Potential violation of Law of Demeter (static property access)
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:12:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:12:	Potential violation of Law of Demeter (method chain calls)
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:12:	Potential violation of Law of Demeter (static property access)
+src/test/java/nz/ac/massey/assignment1/SearchTest.java:12:	Potential violation of Law of Demeter (static property access)
+src/test/java/nz/ac/massey/assignment1/Test.java:3:	Avoid short class names like Test
+src/test/java/nz/ac/massey/assignment1/Test.java:3:	Each class should declare at least one constructor
+src/test/java/nz/ac/massey/assignment1/Test.java:3:	Header comments are required
